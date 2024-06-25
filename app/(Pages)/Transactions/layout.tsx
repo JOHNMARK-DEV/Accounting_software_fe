@@ -20,8 +20,9 @@ export default function RootLayout({
     <QueryClientProvider client={queryClient}>
       <Providers>
         <Theme >
-          <div style={{  margin: 'auto 5%' }}> 
-            <Box >
+          <div>
+            <Navbar />
+            <Box className='mt-4'>
               {children}
             </Box>
           </div>

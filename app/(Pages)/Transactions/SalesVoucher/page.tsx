@@ -1,11 +1,11 @@
  
 import FudzGroupButton from '@/components/ui/FudzGroupButton'  
-import SalesVoucherFormComponent from '@/components/views/Transaction/Invoicing/SalesVoucherFormComponent'
+import SalesInvoiceFormComponent from '@/components/views/Transaction/Invoicing/SalesInvoiceFormComponent'
 
 const page = () => { 
     return (
       <>
-        <SalesVoucherFormComponent />
+        <SalesInvoiceFormComponent />
       </>
     )
 }

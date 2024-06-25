@@ -15,12 +15,7 @@ const page = () => {
 
     return (
         <>
-            {data.map((todo: any) => (
-                <>
-                    <p>ID:{todo.id}</p>
-                    <p>ID:{todo.title}</p> 
-                </>
-            ))}
+           sdf
         </>
     )
 }
