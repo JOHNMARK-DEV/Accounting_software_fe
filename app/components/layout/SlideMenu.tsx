@@ -36,13 +36,13 @@ const SlideMenu = ({data}: INavigationProps) => {
                         <span className={`${true ? "lg:group-hover:block lg:hidden" : "block"}`}>Dashboard</span>
                     </NavLink>
                     {/* {showNavigationLink} */}
-                    <NavLink href="/add-new-patient" icon={<RiBankLine className="w-5 h-5" />}>
+                    <NavLink href="/Transactions" icon={<RiBankLine className="w-5 h-5" />}>
                         <span className={`${true ? "lg:group-hover:block lg:hidden" : "block"}`}>Transaction</span>
                     </NavLink>
-                    <NavLink href="/sample" icon={<RiSettings2Line className="w-5 h-5" />}>
+                    <NavLink href="/SystemConfig" icon={<RiSettings2Line className="w-5 h-5" />}>
                         <span className={`${true ? "lg:group-hover:block lg:hidden" : "block"}`}>System Configuration</span>
                     </NavLink>
-                    <NavLink href="/pdf-viewer" icon={<BsFileBarGraph  className="w-5 h-5" />}>
+                    <NavLink href="/Reports" icon={<BsFileBarGraph  className="w-5 h-5" />}>
                         <span className={`${true ? "lg:group-hover:block lg:hidden" : "block"}`}>Reports</span>
                     </NavLink>
                     <NavLink href="/table-sample" icon={<RiUserSettingsLine  className="w-5 h-5" />}>

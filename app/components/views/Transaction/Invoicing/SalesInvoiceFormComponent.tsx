@@ -12,7 +12,7 @@ import FudzTransTableUDF from "@/components/ui/Tables/FudzTransTableUDF"
 import FudzTransTablePaymentsSchedules from "@/components/ui/Tables/FudzTransTablePaymentsSchedules"
 import { useState } from "react";
 
-const SalesVoucherFormComponent = () => {
+const SalesInvoiceFormComponent = () => {
     const [isOpenAddModal, setOpenAddModal] = useState(false)
 
     const handleAddEntry = () => {
@@ -48,4 +48,4 @@ const SalesVoucherFormComponent = () => {
     )
 }
 
-export default SalesVoucherFormComponent
+export default SalesInvoiceFormComponent

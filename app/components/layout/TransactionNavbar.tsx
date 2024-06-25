@@ -7,7 +7,7 @@ import logo from './../../../public/Fudz_logo.ico'
 import SlideMenu from './SlideMenu' 
 import { RiDashboardLine } from 'react-icons/ri'
 import NavLink from '../ui/NavLink'
-const Navbar = () => {
+const TransactionNavbar = () => {
     return (
         <div style={{borderBottom:'1px solid #dddfe5',marginBottom:'10px'}}>
 
@@ -22,7 +22,7 @@ const Navbar = () => {
 
             <Box style={{ display: 'flex', justifyContent: 'space-between', backgroundColor: 'white', height: '50px', padding: '0px 20px',marginBottom:'10px' }}>
 
-                <ul className='flex gap-1 mt-1'>
+            <ul className='flex items-end  gap-4'>
                     <NavLink href="/Transactions/SalesVoucher" icon={<RiDashboardLine className="w-5 h-5" />} variant={'dark'}>
                         <span className={`${false ? "lg:group-hover:block lg:hidden" : "block"}`}>Invoicing</span>
                     </NavLink>
@@ -64,4 +64,4 @@ const Navbar = () => {
         </div>
     )
 }
-export default Navbar
+export default TransactionNavbar
